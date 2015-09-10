@@ -2,7 +2,7 @@
 int main()
 {
 int c,j;
-c=10;
+c=10;//abcd
 	printf("n");
 	for(j=10;j>=0;j--)
 	{

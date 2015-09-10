@@ -1,13 +1,18 @@
-#include"iostream.cpp"
+#include<stdio.h>
 int main()
 {
-	cout<<"n";
-	for(int j=0;j<11;j++)
+int c,j;
+c=10;
+	printf("n");
+	for(j=10;j>=0;j--)
 	{
-		cout<<endl;
-		for(int i=10;i<=0;i--)
-		{cout<<"i";
+		printf("\n");
+		for(int i=10;i>=j;i--)
+		{
+		   printf("%d",c);
 		}
+		c--;
 	}
+	printf("\nEND");
 	return 0;
 }

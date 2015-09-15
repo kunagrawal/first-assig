@@ -4,14 +4,14 @@ int main()
 int c,j;
 printf("enter ur no.");
 scanf("%d",&c);
-	for(j=10;j>=0;j--)
+	for(j=c;j>=1;j--)
 	{
 		printf("\n");
-		for(int i=10;i>=j;i--)
+		for(int i=c;i>=j;i--)
 		{
-		   printf("%d",c);
+		   printf("%d",j);
 		}
-		c--;
+		
 	}
 	printf("\nEND");
 	return 0;
